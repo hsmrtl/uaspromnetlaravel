@@ -1,0 +1,57 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(163, 203, 255, 0.568);
+}
+
+header {
+  background-color: #3a03ff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  width: 50px; /* Memastikan gambar tidak melebihi lebar header */
+  height: auto;
+}
+
+section {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+/* Container styling using Flexbox */
+.background-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  position: relative;
+}
+
+.card-center {
+  order: -1; /* Kartu ini akan diletakkan di sebelah kanan */
+  border-radius: 8px;
+  background-color: rgba(255, 166, 0, 0.452);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.87);
+  padding: 50px;
+  margin: 20px;
+  transition: box-shadow 0.3s ease;
+}
+.card-center a {
+  color: white;
+}
+footer {
+  background-color: #3a03ff;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

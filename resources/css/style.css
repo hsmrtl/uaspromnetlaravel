@@ -1,0 +1,94 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(104, 170, 255, 0.247);
+}
+
+header {
+  background-color: #3a03ff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  width: 50px; /* Memastikan gambar tidak melebihi lebar header */
+  height: auto;
+}
+
+nav.center-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #fdd007;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #3a03ff;
+  text-decoration: none;
+}
+
+section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 50px;
+}
+
+/* Styles for the cards */
+.card {
+  background-color: #000000;
+  flex: 1; /* Membuat kartu memanfaatkan sebanyak mungkin ruang dalam flex container */
+}
+
+/* Container styling using Flexbox */
+.background-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 700px;
+  margin: 20px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.card-center button {
+  margin-top: 10px;
+}
+
+/* Set order untuk kartu di sebelah kiri */
+.card-center {
+  order: -1; /* Kartu ini akan diletakkan di sebelah kiri */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(255, 217, 4);
+  padding: 50px;
+  margin: 30px;
+  transition: box-shadow 0.3s ease;
+  background-color: rgba(243, 240, 84, 0.438);
+}
+
+.card-center a {
+  color: white;
+}
+
+footer {
+  background-color: #3a03ff;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

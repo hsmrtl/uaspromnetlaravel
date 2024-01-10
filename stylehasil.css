@@ -1,0 +1,85 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(104, 170, 255, 0.247);
+}
+
+header {
+  background-color: #3a03ff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  width: 50px; /* Memastikan gambar tidak melebihi lebar header */
+  height: auto;
+}
+
+nav.center-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #fdd007;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #3a03ff;
+  text-decoration: none;
+}
+
+div.table-container {
+  margin-left: 250px; /* Jarak kiri */
+  margin-right: 250px; /* Jarak kanan */
+}
+
+table {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: auto;
+  margin-top: auto;
+  background-color: #9ec3f383; /* Warna latar belakang tabel */
+  color: #212529; /* Warna teks tabel */
+  border-collapse: collapse; /* Menghilangkan border antar sel */
+  width: 100%; /* Lebar tabel */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; /* Jenis font */
+  font-size: 14px; /* Ukuran teks */
+}
+
+tr,
+td {
+  border: 1px solid #000000; /* Warna border sel */
+  padding: 8px; /* Ruang padding di dalam sel */
+
+  text-align: center; /* Posisi teks di dalam sel */
+}
+
+tr:nth-child(even) {
+  background-color: #eecb6cc9; /* Warna latar belakang baris genap */
+}
+
+div {
+  margin: 20px 0; /* Atur nilai margin atas dan bawah sesuai kebutuhan Anda */
+}
+
+footer {
+  background-color: #3a03ff;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

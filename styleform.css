@@ -1,0 +1,127 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  background-color: rgba(104, 170, 255, 0.247);
+}
+
+header {
+  background-color: #3a03ff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  width: 50px; /* Memastikan gambar tidak melebihi lebar header */
+  height: auto;
+}
+nav.center-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #fdd007;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #3a03ff;
+  text-decoration: none;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Container styling using Flexbox */
+.background-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 10px;
+  position: relative;
+}
+
+/* Set order untuk kartu di sebelah kanan */
+.card-center {
+  order: -1; /* Kartu ini akan diletakkan di sebelah kanan */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(56, 56, 54);
+  transition: box-shadow 0.3s ease;
+  background-color: rgb(255, 249, 241);
+  padding: 40px;
+  margin: 0 auto;
+  transition: box-shadow 0.3s ease;
+  padding-top: 10px auto;
+  padding-bottom: 10px auto;
+  max-width: 900px;
+}
+.card-center a {
+  color: rgb(201, 38, 38);
+}
+
+.form-container {
+  max-width: 100px; /* Lebar maksimum formulir */
+  margin: 0px auto; /* Pusatkan formulir di tengah halaman */
+  margin-bottom: 30px;
+  box-shadow: #fdd007;
+}
+
+h1 {
+  font-size: 24px; /* Ganti dengan ukuran yang diinginkan, contohnya 24px */
+}
+
+/* Menyesuaikan ukuran elemen-elemen formulir */
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  background-color: #fddf574f;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+/* Menyesuaikan ukuran file input */
+.input-group {
+  width: 100%;
+  background-color: #fddf574f;
+}
+
+.input-group-text {
+  width: 20%; /* Lebar elemen label 'Upload' */
+}
+
+#inputGroupFile02 {
+  width: 80%; /* Lebar elemen input file */
+  background-color: #fddf574f;
+}
+
+footer {
+  background-color: #3a03ff;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+}
